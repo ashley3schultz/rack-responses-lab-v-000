@@ -7,5 +7,5 @@ class Application
     resp.write "Good Afternoon!" if Time.now.hour > 12
 
     resp.finish
-  ends
+  end
 end
